@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>FUSEE: A Fully Memory-Disaggregated Key-Value Store 论文阅读笔记</title>
+      <link href="/posts/4a17b1520/"/>
+      <url>/posts/4a17b1520/</url>
+      
+        <content type="html"><![CDATA[<p>今天给大家带来的是今年fast23的一篇paper，<strong>FUSEE: A Fully Memory-Disaggregated Key-Value Store</strong>，一种完全解耦的<strong>K-V</strong>存储架构。</p><h5 id="background"><a class="markdownIt-Anchor" href="#background"></a> Background</h5><p>现在有很多著名的K-V Store，著名的例如redis，还有亚马逊的clashcache等等，传统的K-Vstore的工作模式，是用户从客户端发送网络请求到单体的存储服务器上，由服务器上的CPU进行K-V操作（insert、search、delete、update）来实现对K-V pair的使用。</p><p>但是由于传统K-V store中，采用了单体服务器的这样一个模式，导致cpu和内存资源都被耦合刀了一台机器上，这样会导致计算资源利用率低下，并且整个模式弹性很差。</p><img src="https://maplemeo-1302524148.cos.ap-chengdu.myqcloud.com/image/202305062126191.png" style="zoom: 67%;" />]]></content>
+      
+      
+      <categories>
+          
+          <category> 论文阅读笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> storage </tag>
+            
+            <tag> FAST </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>这是一篇个人博客搭建教程</title>
       <link href="/posts/4a17b156/"/>
       <url>/posts/4a17b156/</url>
