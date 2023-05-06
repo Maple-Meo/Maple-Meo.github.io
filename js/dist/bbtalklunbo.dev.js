@@ -7,9 +7,9 @@ var _AV = AV,
     Query = _AV.Query,
     User = _AV.User;
 AV.init({
-  appId: "IvW3T1NjMoh7OmKEdAz1tM0o-gzGzoHsz",
-  appKey: "vG8s9ukVO5bgozEHzR923dew",
-  serverURL: "https://ivw3t1nj.lc-cn-n1-shared.com"
+  appId: "4VW4973kmk49SF3Uf95zei5n-MdYXbMMI",
+  appKey: "WHwReevjdewgjrcJB4RKBQXL",
+  serverURL: "https://4vw4973k.api.lncldglobal.com"
 });
 var speaks = [];
 var query = new AV.Query('content');
